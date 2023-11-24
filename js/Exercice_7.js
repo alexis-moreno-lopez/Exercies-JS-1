@@ -1,8 +1,14 @@
-let pointureChaussure = prompt("entrez votre pointure de chaussure ");
+let chaussure = prompt("entrez votre pointure de chaussure ");
 let anneeNaissance = prompt("entrez votre année de naissance ");
 
-function multiplication(nombre1,nombre2){
+function multi(chauss,annee){
 
-    console.log(nombre1 * nombre2)
+    return (((((chauss* 2)+5)*50)-annee)+1766);
+    
+
 }
-multiplication(43 ,2 )
+
+
+let resultat = multi(chaussure,anneeNaissance)
+
+console.log(resultat)
